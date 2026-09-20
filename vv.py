@@ -1,0 +1,7 @@
+A, B = map(float, input("Введите A и B: ").split())
+
+# Обмен значениями
+A, B = B, A
+
+print("Новое A:", A)
+print("Новое B:", B)

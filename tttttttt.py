@@ -1,0 +1,11 @@
+import math
+
+S = float(input())
+pi = 3.14
+
+R = math.sqrt(S / pi)
+D = 2 * R
+L = 2 * pi * R
+
+print("Диаметр D:", D)
+print("Длина L:", L)

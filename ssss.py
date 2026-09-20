@@ -1,0 +1,6 @@
+a = float(input("a = "))
+b = float(input("b = "))
+c = float(input("c = "))
+
+print("V =", a * b * c)
+print("S =", 2 * (a*b + b*c + a*c))

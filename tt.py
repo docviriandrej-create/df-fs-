@@ -1,0 +1,8 @@
+a = float(input("a = "))
+b = float(input("b = "))
+
+a2, b2 = a**2, b**2
+print("Sum of squares =", a2 + b2)
+print("Diff of squares =", a2 - b2)
+print("Prod of squares =", a2 * b2)
+print("Quot of squares =", a2 / b2)

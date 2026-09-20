@@ -1,0 +1,21 @@
+import math
+
+# Ввод координат трех вершин
+x1, y1 = map(float, input("Вершина 1 (x1 y1): ").split())
+x2, y2 = map(float, input("Вершина 2 (x2 y2): ").split())
+x3, y3 = map(float, input("Вершина 3 (x3 y3): ").split())
+
+# Вычисление длин сторон
+a = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+b = math.sqrt((x3 - x2)**2 + (y3 - y2)**2)
+c = math.sqrt((x1 - x3)**2 + (y1 - y3)**2)
+
+# Периметр и полупериметр
+P = a + b + c
+p = P / 2
+
+# Площадь по формуле Герона
+S = math.sqrt(p * (p - a) * (p - b) * (p - c))
+
+print("Периметр:", P)
+print("Площадь:", S)

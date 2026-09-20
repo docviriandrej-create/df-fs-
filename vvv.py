@@ -1,0 +1,8 @@
+A, B, C = map(float, input("Введите A, B, C: ").split())
+
+# Сдвиг значений: A<-C, B<-A, C<-B
+A, B, C = C, A, B
+
+print("Новое A:", A)
+print("Новое B:", B)
+print("Новое C:", C)

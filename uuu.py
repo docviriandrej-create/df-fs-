@@ -1,0 +1,7 @@
+A, B, C = map(float, input("Введите координаты A, B, C: ").split())
+
+AC = abs(C - A)
+BC = abs(C - B)
+product = AC * BC
+
+print("Произведение длин AC и BC:", product)
