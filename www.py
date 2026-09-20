@@ -1,0 +1,2 @@
+size = int(input())
+print(size // 1024)
